@@ -146,3 +146,32 @@ main {
   font-size: var(--font-size-p);
   line-height: 1.5;
 }
+
+/* Section C */
+.benefits-section {
+  padding-top: 35.2px;
+  padding-bottom: 35.2px;
+  background-color: var(--bg-color-light);
+  text-align: center;
+}
+
+.benefits-section-container {
+  padding: 26.4px 0 17.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 44px;
+}
+
+.benefits-section h2 {
+  font-size: var(--font-size-h2);
+  font-weight: bold;
+}
+
+.benefits-section p {
+  font-size: var(--font-size-p);
+  max-width: 920px;
+  padding: 0 20px;
+  line-height: 1.5;
+}
