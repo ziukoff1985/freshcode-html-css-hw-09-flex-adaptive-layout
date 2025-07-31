@@ -1,2 +1,6 @@
 /* Reset CSS */
 @import "./reset.css";
+
+.hidden {
+  display: none;
+}

@@ -12,6 +12,116 @@
     <title>Flex Adaptive Layout</title>
   </head>
   <body>
-    <h1>Lorem ipsum dolor sit amet.</h1>
+    <header class="header">
+      <div class="bg-image"></div>
+      <div class="header-content">
+        <h1>Welcome to Acme Web Solutions</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum
+          error earum soluta voluptatum nisi laboriosam eos saepe asperiores
+          dolorum.
+        </p>
+        <a href="#section-b" class="header-btn">Read More</a>
+      </div>
+    </header>
+    <main>
+      <section id="section-a" class="about-section hidden">
+        <div class="about-section-container">
+          <h2 class="about-section-title">Web & Application Development</h2>
+          <div class="about-section-content-wrapper">
+            <p class="about-section-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              sint eligendi possimus? Unde officiis magnam laborum ipsa
+              distinctio odio, vero dolores dicta aliquam aperiam repellendus.
+              Perferendis officiis deserunt velit voluptas nobis sequi animi
+              totam, accusantium, ex eius quia, natus quo?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="section-b" class="services-section hidden">
+        <ul class="services-section-list">
+          <li class="services-list-item">
+            <picture class="services-list-item-image">
+              <source
+                srcset="./assets/images/web-dev-big.jpg"
+                media="(min-width: 701px)"
+              />
+              <img
+                src="./assets/images/web-dev-small.jpg"
+                alt="Web Development"
+              />
+            </picture>
+          </li>
+          <li class="services-list-item">
+            <picture class="services-list-item-image">
+              <source
+                srcset="./assets/images/mobile-app-big.jpg"
+                media="(min-width: 701px)"
+              />
+              <img
+                src="./assets/images/mobile-app-small.jpg"
+                alt="Mobile Applications"
+              />
+            </picture>
+          </li>
+          <li class="services-list-item">
+            <picture class="services-list-item-image">
+              <source
+                srcset="./assets/images/tech-marketing-big.jpg"
+                media="(min-width: 701px)"
+              />
+              <img
+                src="./assets/images/tech-marketing-small.jpg"
+                alt="Web Development"
+              />
+            </picture>
+          </li>
+        </ul>
+      </section>
+      <section id="section-c" class="benefits-section hidden">
+        <div class="benefits-section-container">
+          <h2 class="benefits-section-title">
+            We handle all of your digital needs
+          </h2>
+          <p class="benefits-section-content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam
+            rerum vel earum error fugiat cupiditate, dolore eius! Minus,
+            explicabo.
+          </p>
+        </div>
+      </section>
+      <section id="section-d" class="contact-section hidden">
+        <ul class="contact-section-list">
+          <li class="contact-section-list-item-blue">
+            <h3 class="contact-section-list-item-title">Contact Us</h3>
+            <p class="contact-section-list-item-content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
+              suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde
+              fuga.
+            </p>
+            <p class="contact-section-list-item-content">
+              contact@acmewebsolutions.test
+            </p>
+          </li>
+          <li class="contact-section-list-item-black">
+            <h3 class="contact-section-list-item-title">About Our Company</h3>
+            <p class="contact-section-list-item-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio earum porro deserunt, deleniti, quae facere
+              repudiandae, officiis est exercitationem nobis iusto doloremque!
+              Soluta excepturi in aut suscipit amet temporibus quo?
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer hidden">
+      <div class="footer-logo">Acme Web Solutions</div>
+      <div class="footer-link">
+        Project By
+        <a href="https://www.freshcode.training/">Traversy Media</a>
+      </div>
+    </footer>
   </body>
 </html>
