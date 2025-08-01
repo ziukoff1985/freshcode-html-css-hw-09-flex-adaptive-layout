@@ -210,3 +210,30 @@ main {
 .contact-section p {
   font-size: var(--font-size-p);
 }
+
+/* Footer */
+.footer {
+  background-color: black;
+  padding: 35.2px 0;
+  color: var(--font-color-light);
+  display: flex;
+  font-size: var(--font-size-p);
+}
+
+.footer-link,
+.footer-logo {
+  width: 50%;
+  text-align: center;
+}
+
+.footer-link {
+  padding-right: 35.2px;
+}
+
+.footer-logo {
+  padding-left: 35.2px;
+}
+
+.footer-link a {
+  color: var(--bg-color-blue);
+}
