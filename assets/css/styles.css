@@ -5,24 +5,29 @@
   --bg-color-dark: #333333;
   --bg-color-light: #eaeaea;
   --bg-color-blue: #2690d4;
-  --font-color-dark: #333333;
+
   --font-color-light: #ffffff;
   --font-size-h1: 35.2px;
   --font-size-h2: 26.4px;
   --font-size-h3: 20px;
   --font-size-p: 17.6px;
+
+  --padding-xl: 35.2px;
+  --padding-l: 26.4px;
+  --padding-m: 20px;
+  --padding-s: 17.6px;
 }
 
 /* Common styles */
 .container {
   max-width: 880px;
-  padding: 0 26.4px;
+  padding: 0 var(--padding-l);
   margin: 0 auto;
 }
 
 @media screen and (max-width: 700px) {
   .container {
-    padding: 0 20px;
+    padding: 0 var(--padding-m);
   }
 }
 
@@ -74,7 +79,7 @@ main {
 
 .header-btn:hover {
   background-color: var(--bg-color-light);
-  color: var(--font-color-dark);
+  color: black;
 }
 
 @media screen and (max-width: 700px) {
@@ -88,8 +93,8 @@ main {
 
 /* Section A */
 .about-section {
-  padding-top: 26.4px;
-  padding-bottom: 35.2px;
+  padding-top: var(--padding-l);
+  padding-bottom: var(--padding-xl);
   background-color: var(--bg-color-light);
   text-align: center;
 }
@@ -124,7 +129,7 @@ main {
 /* Section B */
 .services-section {
   background-color: var(--bg-color-dark);
-  padding: 35.2px 0;
+  padding: var(--padding-xl) 0;
   text-align: center;
 }
 
@@ -141,7 +146,7 @@ main {
   text-align: center;
 }
 .services-list-item-content-wrapper {
-  padding: 44px 17.6px;
+  padding: 44px var(--padding-s);
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -170,14 +175,14 @@ main {
 
 /* Section C */
 .benefits-section {
-  padding: 35.2px 0;
+  padding: var(--padding-xl) 0;
   background-color: var(--font-color-light);
   text-align: center;
 }
 
 .benefits-section-container {
-  padding-top: 26.4px;
-  padding-bottom: 17.6px;
+  padding-top: var(--padding-l);
+  padding-bottom: var(--padding-s);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -193,7 +198,7 @@ main {
 .benefits-section p {
   font-size: var(--font-size-p);
   max-width: 920px;
-  padding: 0 20px;
+  padding: 0 var(--padding-m);
 }
 
 /* Section D */
@@ -207,7 +212,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 62.6px 35.2px 52.8px;
+  padding: 63px var(--padding-xl) 53px;
   color: var(--font-color-light);
   gap: 44px;
 }
@@ -246,7 +251,7 @@ main {
 /* Footer */
 .footer {
   background-color: black;
-  padding: 35.2px 0;
+  padding: var(--padding-xl) 0;
   color: var(--font-color-light);
   display: flex;
   font-size: var(--font-size-p);
@@ -259,11 +264,11 @@ main {
 }
 
 .footer-link {
-  padding-right: 35.2px;
+  padding-right: var(--padding-xl);
 }
 
 .footer-logo {
-  padding-left: 35.2px;
+  padding-left: var(--padding-xl);
 }
 
 .footer-link a {
