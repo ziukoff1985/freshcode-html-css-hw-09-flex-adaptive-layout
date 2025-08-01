@@ -38,7 +38,6 @@ main {
 /* Header */
 .header {
   min-height: 450px;
-  text-align: center;
   background-color: var(--bg-color-dark);
   background-image: linear-gradient(
       rgba(51, 51, 51, 0.5),
@@ -96,7 +95,6 @@ main {
   padding-top: var(--padding-l);
   padding-bottom: var(--padding-xl);
   background-color: var(--bg-color-light);
-  text-align: center;
 }
 
 .about-section-container {
@@ -130,7 +128,6 @@ main {
 .services-section {
   background-color: var(--bg-color-dark);
   padding: var(--padding-xl) 0;
-  text-align: center;
 }
 
 .services-section-list {
@@ -143,7 +140,6 @@ main {
   display: flex;
   flex-direction: column;
   background-color: var(--font-color-light);
-  text-align: center;
 }
 .services-list-item-content-wrapper {
   padding: 44px var(--padding-s);
@@ -177,7 +173,6 @@ main {
 .benefits-section {
   padding: var(--padding-xl) 0;
   background-color: var(--font-color-light);
-  text-align: center;
 }
 
 .benefits-section-container {
@@ -204,7 +199,6 @@ main {
 /* Section D */
 .contact-section-list {
   display: flex;
-  text-align: center;
 }
 
 .contact-section-list-item-blue,
@@ -260,7 +254,6 @@ main {
 .footer-link,
 .footer-logo {
   width: 50%;
-  text-align: center;
 }
 
 .footer-link {
