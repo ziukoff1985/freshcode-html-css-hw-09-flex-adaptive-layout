@@ -15,9 +15,15 @@
 
 /* Common styles */
 .container {
-  padding: 0 26.4px;
   max-width: 880px;
+  padding: 0 26.4px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding: 0 20px;
+  }
 }
 
 main {
@@ -58,7 +64,6 @@ main {
 }
 
 .header-btn {
-  /* line-height: 1.5; */
   font-size: var(--font-size-p);
   background-color: var(--bg-color-dark);
   color: var(--font-color-light);
@@ -71,6 +76,12 @@ main {
 .header-btn:hover {
   background-color: var(--bg-color-light);
   color: var(--font-color-dark);
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    min-height: 100dvh;
+  }
 }
 
 /* Section A */
@@ -103,6 +114,12 @@ main {
   font-size: var(--font-size-p);
 }
 
+@media screen and (max-width: 700px) {
+  .about-section-content-wrapper {
+    columns: 1 auto;
+  }
+}
+
 /* Section B */
 .services-section {
   background-color: var(--bg-color-dark);
@@ -123,7 +140,6 @@ main {
   color: var(--font-color-dark);
   text-align: center;
 }
-
 .services-list-item-content-wrapper {
   padding: 44px 17.6px;
   display: flex;
@@ -142,16 +158,28 @@ main {
   font-size: var(--font-size-p);
 }
 
+@media screen and (max-width: 700px) {
+  .services-section-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .services-list-item {
+    max-width: 100%;
+  }
+}
+
 /* Section C */
 .benefits-section {
-  padding-top: 35.2px;
-  padding-bottom: 35.2px;
+  /* padding-top: 35.2px;
+  padding-bottom: 35.2px; */
+  padding: 35.2px 0;
   background-color: var(--font-color-light);
   text-align: center;
 }
 
 .benefits-section-container {
-  padding: 26.4px 0 17.6px;
+  padding-top: 26.4px;
+  padding-bottom: 17.6px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -207,6 +235,16 @@ main {
   font-size: var(--font-size-p);
 }
 
+@media screen and (max-width: 700px) {
+  .contact-section-list {
+    flex-direction: column;
+  }
+  .contact-section-list-item-blue,
+  .contact-section-list-item-black {
+    width: 100%;
+  }
+}
+
 /* Footer */
 .footer {
   background-color: black;
@@ -232,4 +270,21 @@ main {
 
 .footer-link a {
   color: var(--bg-color-blue);
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-link,
+  .footer-logo {
+    width: 100%;
+  }
+
+  .footer-link,
+  .footer-logo {
+    padding: 0;
+  }
 }
