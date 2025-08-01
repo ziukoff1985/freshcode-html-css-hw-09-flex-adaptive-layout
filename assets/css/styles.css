@@ -1,10 +1,6 @@
 /* Reset CSS */
 @import "./reset.css";
 
-.hidden {
-  display: none;
-}
-
 :root {
   --bg-color-dark: #333333;
   --bg-color-light: #eaeaea;
