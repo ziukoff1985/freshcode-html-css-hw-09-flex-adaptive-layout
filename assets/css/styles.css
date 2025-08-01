@@ -43,6 +43,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: var(--bg-color-light);
 }
 
 .header-content {
@@ -51,7 +52,6 @@ main {
   align-items: center;
   padding-top: 100px;
   gap: 20px;
-  color: var(--bg-color-light);
 }
 
 .header h1 {
@@ -66,7 +66,6 @@ main {
 .header-btn {
   font-size: var(--font-size-p);
   background-color: var(--bg-color-dark);
-  color: var(--font-color-light);
   margin-top: 8px;
   margin-bottom: 16px;
   padding: 18px 35px;
@@ -100,7 +99,6 @@ main {
   flex-direction: column;
   gap: 26.4px;
   background-color: var(--bg-color-light);
-  color: var(--font-color-dark);
 }
 
 .about-section-title {
@@ -140,7 +138,6 @@ main {
   display: flex;
   flex-direction: column;
   background-color: var(--font-color-light);
-  color: var(--font-color-dark);
   text-align: center;
 }
 .services-list-item-content-wrapper {
@@ -173,8 +170,6 @@ main {
 
 /* Section C */
 .benefits-section {
-  /* padding-top: 35.2px;
-  padding-bottom: 35.2px; */
   padding: 35.2px 0;
   background-color: var(--font-color-light);
   text-align: center;
