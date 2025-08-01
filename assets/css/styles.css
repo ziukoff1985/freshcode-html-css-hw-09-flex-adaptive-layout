@@ -106,7 +106,7 @@ main {
   background-color: var(--bg-color-light);
 }
 
-.about-section-title {
+.about-section h2 {
   font-size: var(--font-size-h2);
   font-weight: bold;
 }
@@ -116,7 +116,7 @@ main {
   column-gap: 20px;
 }
 
-.about-section-content {
+.about-section p {
   font-size: var(--font-size-p);
 }
 
