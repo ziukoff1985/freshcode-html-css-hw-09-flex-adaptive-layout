@@ -32,6 +32,11 @@
   }
 }
 
+body {
+  line-height: 1.5;
+  text-align: center;
+}
+
 main {
   background-color: var(--bg-color-light);
 }
