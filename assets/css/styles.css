@@ -70,8 +70,7 @@ main {
 .header-btn {
   font-size: var(--font-size-p);
   background-color: var(--bg-color-dark);
-  margin-top: 8px;
-  margin-bottom: 16px;
+  margin: 20px 0;
   padding: 18px 35px;
   border: 1px solid #666;
 }
@@ -79,15 +78,6 @@ main {
 .header-btn:hover {
   background-color: var(--bg-color-light);
   color: black;
-}
-
-@media screen and (max-width: 700px) {
-  .header {
-    min-height: 100dvh;
-  }
-  .header-btn {
-    margin-top: 20px;
-  }
 }
 
 /* Section A */
