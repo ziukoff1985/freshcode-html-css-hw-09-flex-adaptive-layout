@@ -76,7 +76,7 @@ main {
 .header-btn {
   font-size: var(--font-size-p);
   background-color: var(--bg-color-dark);
-  margin: 20px 0;
+  margin: 20px 0 60px;
   padding: 18px 35px;
   border: 1px solid #666;
 }
